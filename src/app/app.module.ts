@@ -18,6 +18,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './components/principal/home/home.component';
 import { LoginComponent } from './components/principal/login/login.component';
 import { RegisterComponent } from './components/principal/register/register.component';
+import { NavComponent } from './components/principal/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { RegisterComponent } from './components/principal/register/register.comp
     HomeComponent,
     LoginComponent,
     RegisterComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule,
