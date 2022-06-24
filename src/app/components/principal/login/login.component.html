@@ -1,7 +1,7 @@
 <app-home></app-home>
 <div class="login">
     <div class="content">
-        <img src="./assets/img/iconLogin.png" width="150px">
+        <img src="./assets/img/login-usuario.png" width="150px">
         <h1>Login</h1>
             <mat-form-field class="input-login" appearance="fill">
               <mat-label>Email</mat-label>
@@ -11,6 +11,6 @@
             <mat-label>Password</mat-label>
             <input matInput type="password">
         </mat-form-field><br>
-        <button mat-stroked-button [routerLink]="['/home']" >Iniciar Sesion</button>
+        <button class="button-login" mat-flat-button [routerLink]="['/home']">Ingresar</button>
     </div>
 </div>
